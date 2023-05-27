@@ -1,7 +1,9 @@
 # AI Model Files
 ## 모델 불러 오는 법
-`easyocr_model = joblib.load('easyocr_base_model.pkl')`
-`whisper_model = joblib.load('whisper_base_model.pkl')`
+```
+easyocr_model = joblib.load('easyocr_base_model.pkl')
+whisper_model = joblib.load('whisper_base_model.pkl')
+```
 
 ## EasyOCR
 - `easyocr_base_model.pkl`
