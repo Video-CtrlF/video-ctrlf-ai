@@ -90,7 +90,7 @@ class AiModel:
         Whisper를 통해 동영상 오디오에서 Text 추출
         return: pd.DataFrame
         """
-        audio_all = whisper.load_audio(self.audio_path) # load audio
+        audio_all = whisper.load_audio(self.audio_url) # load audio
         result = self.whisper_model.transcribe(audio_all)
 
         for seg in result['segments']:
